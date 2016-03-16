@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#259b24"/>
+    <stroke android:width="2dp" android:color="#fff" />
+</shape><!-- From: file:/F:/My%20Stuff/Imp/Projects/Zevenseas/DailyStatusUpdaterAS/app/src/main/res/drawable/circle2.xml -->

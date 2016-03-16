@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- Search, should appear as action button
+    <item android:id="@+id/txtLoading"
+          android:icon="@drawable/ic_action_call"
+          android:title="Call Ravikiran "
+          android:showAsAction="ifRoom" /> -->
+    
+     <item android:id="@+id/txtLoading"
+          android:icon="@drawable/ic_action_call"
+          android:title="Call Ravikiran "
+          android:showAsAction="never" />
+    <!-- Edit my profile -->
+    <item android:id="@+id/action_editInfo"
+          
+          android:title="Logout"
+          android:showAsAction="never"/>
+     
+   
+</menu><!-- From: file:/F:/My%20Stuff/Imp/Projects/Zevenseas/DailyStatusUpdaterAS/app/src/main/res/menu/actionbaroptions.xml -->

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <RadioGroup
+        android:id="@+id/RGWorkLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/RBHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Home" />
+
+        <RadioButton
+            android:id="@+id/RBOthers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Others" />
+
+    </RadioGroup>
+
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:weightSum="4">
+
+        <EditText
+            android:id="@+id/ETWFHComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Comment (Optional)"
+            android:inputType="textPersonName" >
+
+        </EditText>
+        
+        <RelativeLayout
+        android:id="@+id/RLFullDay"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnblood_selector"
+        android:padding="20dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txtFullDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="Full Day"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#e0e0e0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+       
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RLFirstHalf"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btncholes_selector"
+          android:layout_weight="1"  >
+
+        <TextView
+            android:id="@+id/txtFirstHalf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="First Half"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#e0e0e0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RLSecondHalf"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btndiabetes_selector"
+          android:layout_weight="1"  >
+
+        <TextView
+            android:id="@+id/txtSecondHalf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Second Half"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#e0e0e0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView><!-- From: file:/F:/My%20Stuff/Imp/Projects/Zevenseas/DailyStatusUpdaterAS/app/src/main/res/layout/workfrom.xml -->

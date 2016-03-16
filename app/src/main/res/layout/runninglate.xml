@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:paddingTop="20dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/LblLateBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Late by (hrs):"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:id="@+id/txtHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Hours : "
+            android:textSize="15sp" />
+
+        <SeekBar
+            android:id="@+id/seekBarLate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="15.06"
+            android:indeterminate="false"
+            android:max="5"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" />
+    </LinearLayout>
+    
+    <LinearLayout
+          android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp" >
+        
+         <TextView
+             android:id="@+id/txtMinutes"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:text="Minutes : "
+             android:textSize="15sp" />
+
+         <SeekBar
+             android:id="@+id/seekBarMins"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:indeterminate="false"
+             android:max="45"
+             android:paddingLeft="15dp"
+             android:paddingRight="15dp" />
+    
+    </LinearLayout>
+        <!-- android:progressDrawable="@drawable/styled_progress" 
+        android:thumb="@drawable/slidericon"-->
+        
+    <TextView
+        android:id="@+id/txtReachingBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Reaching by : "
+        android:textSize="15sp" />
+<LinearLayout
+    android:focusable="true" 
+    android:focusableInTouchMode="true"
+    android:layout_width="0dip" 
+    android:layout_height="0dip"
+    android:id="@+id/dummyView"
+    android:orientation="horizontal"/>
+    <EditText
+        android:id="@+id/ETStatusComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Comment(Optional)"
+        android:inputType="textPersonName" >
+
+    </EditText>
+
+    <RelativeLayout
+        android:id="@+id/RLUpdateRunningLate"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btnthy_selector" >
+
+        <TextView
+            android:id="@+id/txtUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Update"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>
