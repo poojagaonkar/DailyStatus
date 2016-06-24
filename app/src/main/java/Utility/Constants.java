@@ -35,21 +35,21 @@ public final class Constants
 
 
 // Dev constants
-	/* public static final String LOGIN_URL = "https://login.windows.net/";
+	public static final String LOGIN_URL = "https://login.windows.net/";
 	public static final String TENANT = "RapidCircle.com";
-	public static final String CLIENT_ID ="196bf728-74fb-4a6d-b2ec-ddbe610a923e"; 
-	public static final String REDIRECT_URL = "http://rc-client/dailystatus/cloud";
-	public static final String RESOURCE = "http://rc-services/dailystatus/cloud";
+	public static final String CLIENT_ID ="fb626eb8-59f5-43c3-8b01-1b4887b00566"; 
+	public static final String REDIRECT_URL = "http://rc-client/dailystatus/cloud/dev";
+	public static final String RESOURCE = "http://rc-services/dailystatus/cloud/dev";
 	public static final String SERVICE_ENDPOINT = "api/status";
 
 	// Endpoints
 	public static final String AddStatusEndpoint ="https://dailystatusdev.azurewebsites.net/odata/Statuses";
 	public static final String StatusQueryendpoint = "https://dailystatusdev.azurewebsites.net/odata/Statuses";
-	public static final String Notifications = "https://dailystatusdev.azurewebsites.net/Notifications";	*/
+	public static final String Notifications = "https://dailystatusdev.azurewebsites.net/Notifications";
 	
 
 	// Production Endpoints
-	 public static final String LOGIN_URL = "https://login.windows.net/";
+/*	 public static final String LOGIN_URL = "https://login.windows.net/";
 	public static final String TENANT = "RapidCircle.com";
 	public static final String CLIENT_ID ="f27fa1dd-cb7f-49be-b695-be6481d3e326"; 
 	public static final String REDIRECT_URL = "http://rc-client/dailystatus/cloud/prod";
@@ -59,7 +59,7 @@ public final class Constants
 	// Endpoints
 	public static final String AddStatusEndpoint ="https://dailystatus.azurewebsites.net/odata/Statuses";
 	public static final String StatusQueryendpoint = "https://dailystatus.azurewebsites.net/odata/Statuses";
-	public static final String Notifications = "https://dailystatus.azurewebsites.net/Notifications"; 
+	public static final String Notifications = "https://dailystatus.azurewebsites.net/Notifications"; */
 
 
 }
